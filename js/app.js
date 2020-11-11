@@ -29,3 +29,10 @@ addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+//sweetalert
+const Botons = document.querySelector(".botons");
+
+Botons.addEventListener('click', () =>{
+    swal("Good job!", "Successful login", "success");
+})
