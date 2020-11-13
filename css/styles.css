@@ -116,6 +116,7 @@ body {
 .home .home-content {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 60px;
   align-items: flex-end;
   justify-content: space-between;
 }
@@ -130,7 +131,7 @@ body {
 
 .home .home-content .text-1 {
   font-size: 75px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .home .home-content .text-2 {
@@ -280,9 +281,9 @@ body {
       align-items: center;
   }
   .home .home-content .text-home{
-      width: 500px;
-
-      text-align: center;
+    width: 500px;
+    margin-top: 50px;
+    text-align: center;
   }
   .home .home-content .burger {
       width: 600px;
@@ -291,7 +292,8 @@ body {
       align-items: center;
   }
   .home .home-content .burger img{
-      width: 100%;
+     margin-top: -45px;
+      width: 60%;
   }
   .home .home-content .text-1{
       font-size: 50px;
