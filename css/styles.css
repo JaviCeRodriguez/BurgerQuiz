@@ -32,7 +32,8 @@ body {
   font-weight: 600;
   /* color: #404040; */
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
 }
 
 .navbar-scroll {
@@ -111,11 +112,13 @@ body {
 
 .home .max-width {
   margin: auto;
+  /* padding-left: 20px; */
 }
 
 .home .home-content {
   display: flex;
   flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
   margin-top: 60px;
   align-items: flex-end;
   justify-content: space-between;
@@ -157,6 +160,7 @@ body {
   border: 3px solid #ff9f00;
   background: none;
 }
+
 
 /*section secondaria*/
 .second2{
