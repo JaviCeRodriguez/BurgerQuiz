@@ -20,7 +20,7 @@ body {
 .iconos {
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 80px;
 }
 
 .navbar {
@@ -117,8 +117,8 @@ body {
 
 .home .home-content {
   display: flex;
-  flex-wrap: wrap;
-  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+   flex-wrap: nowrap;
   margin-top: 60px;
   align-items: flex-end;
   justify-content: space-between;
@@ -281,6 +281,7 @@ body {
 
   .home .home-content{
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
   }
