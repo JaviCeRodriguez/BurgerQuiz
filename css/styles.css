@@ -112,7 +112,7 @@ body {
 
 .home .max-width {
   margin: auto;
-  /* padding-left: 20px; */
+  padding-left: 100px;
 }
 
 .home .home-content {
@@ -139,7 +139,7 @@ body {
 
 .home .home-content .text-2 {
   font-size: 20px;
-  margin: 5px 0;
+  margin: 20px 0;
 }
 
 .home .home-content a {
@@ -161,14 +161,18 @@ body {
   background: none;
 }
 
+.burger{
+  margin-left: 100px;
+}
 
 /*section secondaria*/
 .second2{
   /* height: 500px; */
   width: 1000px;
   padding: 6rem 0;
-  margin: auto;
-  margin-top: 50px;
+  /* margin: auto; */
+  /* margin-top: 50px; */
+  margin: 120px auto auto;
 }
 
 .main{
@@ -196,6 +200,8 @@ body {
 
 .banners{
   padding-right: 50px;
+  margin-left: 80px;
+  width: 100%;
   grid-area: "specsBanners";
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -298,6 +304,7 @@ body {
   }
   .home .home-content .burger img{
      margin-top: -45px;
+     margin-left: -80px;
       width: 60%;
   }
   .home .home-content .text-1{
