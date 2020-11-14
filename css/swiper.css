@@ -27,6 +27,19 @@ body {
 .swiper-container {
 	width: 100%;
 	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide-content{
+	/* border: 1px solid red; */
+	width: 70vw;
+	border-radius: 15px;
+	background-color: #eee;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 2vh;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
 }
 
 .swiper-slide {
@@ -45,11 +58,12 @@ body {
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
-	flex-direction: column;
 }
 
 .content-left{
 	text-align: start;
+	flex-direction: column;
+	/* max-width: 400px; */
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {
