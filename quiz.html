@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metas -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Titulo -->
+        <title>Burguer Quiz</title>
+
+        <!-- CSS y favicon-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css/swiper.css"/>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+    </head>
+
+    <body>
+        <!-- Slides Quiz -->
+        <div class="swiper-container flex">
+            <div class="swiper-wrapper flex">
+                <div class="swiper-slide flex">
+                    <div class="slide-content">
+                        <h2>Sos fan de la burga?</h2> 
+                        <div class="content-left flex">
+                            <label class="container">
+                                <input type="radio" name="question1" id="1sum1"> No tanto
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question1" id="1sum5" checked="checked"> Si
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question1" id="1sum10"> Te cuento la historia de como se hizo la primer burga?
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex">
+                    <div class="slide-content">
+                        <h2>Que team sos?</h2>
+                        <div class="content-left flex">
+                            <label class="container">
+                                <input type="radio" name="question2" id="2sum10"> Team burga grande y recargada
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question2" id="2sum5" checked="checked"> Team burga chica pero bien rica
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question2" id="2sum1"> Lo que venga
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex">
+                    <div class="slide-content">
+                        <h2>Dejás restos de la comida?</h2>
+                        <div class="content-left flex">
+                            <label class="container">
+                                <input type="radio" name="question3" id="3sum1"> A veces
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question3" id="3sum5" checked="checked"> Nunca
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input type="radio" name="question3" id="3sum10"> Me como hasta el papel sin querer
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex">
+                    <div class="btnRes flex" id="visibility1">
+                        <a href="#" onclick="resultado()">See result</a>
+                    </div>
+                    <div id="visibility2">
+                        <div class="card flex">
+                            <div class="img-burger flex">
+                                <img src="" alt="Imagen" id="imagenBurguer">
+                            </div>
+                            <div class="content flex">
+                                <div class="title-card flex">
+                                    <div class="text flex">
+                                        <h2 id="title"></h2>
+                                    </div>
+                                    <div class="num flex">
+                                        <h2 id="price"></h2>
+                                    </div>
+                                </div>
+                                <div class="subtitle-card flex">
+                                    <h3 id="subtitle"></h3>
+                                </div>
+                                <div class="description-card flex">
+                                    <p id="description"></p>
+                                </div>
+                                <div class="btns flex">
+                                    <a href="#">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btnsOpt flex">
+                            <div class="btnAgain flex">
+                                <a href="./quiz.html">Try again</a>
+                            </div>
+                            <div class="btnHome flex">
+                                <a href="./index.html">Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        <!-- Scripts -->
+        <script src="./js/logic-quiz.js"></script>
+        <script src="../package/swiper-bundle.min.js"></script>
+    </body>
+</html>

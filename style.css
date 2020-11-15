@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap%22");
+/*GLOBALES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+}
+.catalogue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+}
+.catalogue .catalogue-content{
+    display: flex;
+    width: 1300px;
+    padding: 20px;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.catalogue .catalogue-content .pres {
+    width: 1300px;
+    position: relative;
+    text-align: center;
+}
+.catalogue .catalogue-content .pres h2{
+
+    font-size: 35px;
+    font-weight: 750;
+    color: #3E3D3D;
+
+}
+.catalogue .catalogue-content .pres p{
+    padding-left:30% ;
+    padding-right:30% ;
+    color: #C4C4C4;
+}
+.card{
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;}
+.catalogue .catalogue-content .card .img-burger{
+    position: relative;
+    margin: 0;
+}
+.catalogue .catalogue-content .card .img-burger img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.catalogue .catalogue-content .card .content{
+    position: absolute;
+    padding: 0 20px 20px;
+
+}
+.catalogue .catalogue-content .card .content h2{
+    font-size: 35px;
+    font-weight: 1000;
+    color: #3E3D3D;
+    display: inline-block;
+}
+.catalogue .catalogue-content .card .content  .numa{
+    padding-left:74px;
+
+}
+.catalogue .catalogue-content .card .content  .numb{
+    padding-left:80px;
+
+}
+.catalogue .catalogue-content .card .content  .numc{
+    padding-left:43px;
+
+}
+.catalogue .catalogue-content .card .content h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #7E7C7D;
+}
+.catalogue .catalogue-content .card .content p{
+    padding-bottom: 30px;
+    color: #C4C4C4;
+}
+
+
+@media (max-width: 1230px){
+
+    .catalogue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lato", sans-serif;
+    }
+    .catalogue .catalogue-content{
+        display: flex;
+        width: 800px;
+        justify-content: center;
+        align-items:center;
+
+    }
+}
+
+
+
+@media (max-width: 840px){
+    .catalogue .catalogue-content .pres {
+
+        max-width: 500px;
+        text-align: center;
+
+    }
+    .catalogue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: "Lato", sans-serif;
+        margin-left: 20px;
+    }
+    .catalogue .catalogue-content{
+        display: flex;
+        width: 400px;
+        justify-content: center;
+        align-items:center;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+

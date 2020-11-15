@@ -1,0 +1,374 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap%22");
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	/* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+    background: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.flex{
+  	display: flex;	
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide-content{
+	/* border: 1px solid red; */
+	width: 70vw;
+	border-radius: 15px;
+	background-color: #eee;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 2vh;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.content-left{
+	text-align: start;
+	flex-direction: column;
+	/* max-width: 400px; */
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+	font-size: 20px;
+	font-weight: 700;
+    font-family: swiper-icons;
+    letter-spacing: 0px;
+    font-variant: initial;
+    line-height: 1;
+	text-transform: none !important;
+	color: rgb(245, 188, 0);
+	text-shadow: 1px 0 0 #000,
+				-1px 0 0 #000,
+				0 1px 0 #000, 
+				0 -1px 0 #000, 
+				1px 1px #000, 
+				-1px -1px 0 #000, 
+				1px -1px 0 #000, 
+				-1px 1px 0 #000;
+}
+
+/* The container */
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+	background-color: rgb(245, 188, 0);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.img-burguer{
+	flex-direction: column;
+}
+
+.btnRes{
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(245, 188, 0);
+	border-radius: 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btnRes a{
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	padding: 50px;
+}
+
+#visibility2{
+	display: none;
+	flex-direction: column;
+}
+
+.card{
+    position: relative;
+    width: 750px;
+    height: 300px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card .img-burger{
+	align-content: flex-start;
+	border: 0px solid red;
+	width: 450px;
+    margin: 0;
+}
+
+.card .img-burger img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content{
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: flex-end;
+	width: 300px;
+}
+
+.card .content .title-card{
+	padding: 25px 20px 0px 20px;
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+	border: 0px solid red;
+	color: #3E3D3D;
+}
+
+.card .content .title-card h2{
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.card .content .subtitle-card{
+	padding: 0px 20px 0px 20px;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	border: 0px solid red;
+	color: #7E7C7D;
+}
+
+.card .content .subtitle-card h3{
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.card .content .description-card{
+	padding: 0px 15px 0px 15px;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+	border: 0px solid red;
+	color: #b9b9b9;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.card .content .btns a{
+	border: 0px solid red;
+	padding: 17px;
+	background-color: rgb(245, 188, 0);
+	text-decoration: none;
+	font-weight: 900;
+	color: #111;
+	width: 300px;
+}
+
+.btnsOpt{
+	justify-content: space-around;
+}
+
+.btnAgain, .btnHome{
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	background-color: rgb(245, 188, 0);
+	border-radius: 10px;
+}
+
+.btnAgain a, .btnHome a{
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	padding: 25px;
+}
+
+@media (max-width: 840px) {
+	.card{
+		position: relative;
+		width: 280px;
+		height: 420px;
+		background: #fff;
+		margin: 20px;
+		border-radius: 30px;
+		overflow: hidden;
+		box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+	}
+	
+	.card .img-burger{
+		position: relative;
+		margin: 0;
+	}
+	
+	.card .img-burger img{
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+	
+	.card .content{
+		position: absolute;
+		flex-direction: column;
+		padding-top: 200px;
+		width: 280px;
+		height: 53%;
+	}
+	
+	.card .content .title-card{
+		padding: 0px 10px 0px 10px;
+		justify-content: space-between;
+		align-items: center;
+		height: 45px;
+		border: 0px solid red;
+		color: #3E3D3D;
+	}
+
+	.card .content .title-card h2{
+		font-weight: 900;
+		font-size: 30px;
+	}
+	
+	.card .content .subtitle-card{
+		padding: 0px 10px 0px 10px;
+		justify-content: flex-start;
+		align-items: center;
+		height: 30px;
+		border: 0px solid red;
+		color: #7E7C7D;
+	}
+
+	.card .content .subtitle-card h3{
+		font-weight: 900;
+		font-size: 25px;
+	}
+	
+	.card .content .description-card{
+		padding: 0px 15px 0px 15px;
+		justify-content: center;
+		align-items: center;
+		height: 75px;
+		border: 0px solid red;
+		color: #C4C4C4;
+	}
+	
+	.card .content .btns div a{
+		border: 0px solid red;
+		padding: 17px;
+		background-color: rgb(245, 188, 0);
+		text-decoration: none;
+		font-weight: 900;
+		color: #111;
+		width: 320px;
+	}
+
+	.btnsOpt{
+		justify-content: space-around;
+	}
+	
+	.btnAgain, .btnHome{
+		justify-content: center;
+		align-items: center;
+		width: 35%;
+		background-color: rgb(245, 188, 0);
+		border-radius: 10px;
+	}
+	
+	.btnAgain a, .btnHome a{
+		font-size: 15px;
+		font-weight: 700;
+		color: #000;
+		text-decoration: none;
+		padding: 25px;
+	}
+}

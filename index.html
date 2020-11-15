@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Quiz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/medias.css" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesshet" href="./css/materialize.min.css">
+    <!-- <link rel="icon" type="image/png" href="img/burger-icon.png" /> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+    <script
+      src="https://kit.fontawesome.com/4faa9fe1ce.js"
+      crossorigin="anonymous"
+    ></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <!--Inicio navbar-->
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="iconos">
+          <i class="fas fa-hamburger"></i>
+          <img class="imagen" src="./img/logo.png" />
+        </div>
+        <ul class="nav_ul" id="nav">
+          <li class="menu-principal link active"><a href="#">Home</a></li>
+          <li class="link"><a href="#Products">Products</a></li>
+          <li class="link"><a href="#Features">Features</a></li>
+          <li class="link"><a href="#">About</a></li>
+          <li class="link"><a href="#">Contact</a></li>
+          <li><a class="botons" href="#">Sign up</a></li>
+          <li>
+            <i class="fas fa-cart-plus"></i>
+          </li>
+        </ul>
+        <div class="btn_menu">
+          <!-- <i class="fas fa-bars"></i> -->
+          <i class="fas fa-hamburger"></i>
+        </div>
+      </nav>
+    </header>
+    <!--Final navbar-->
+    <!--section principal-->
+    <section class="home" id="Home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-home">
+            <div class="text-1">Meet your</div>
+            <div class="text-1">half-burger.</div>
+            <div class="text-2">
+              Answer a couple of questions about yourself.<br />
+              tell us what you like and we`ll take care of the rest.
+            </div>
+            <a href="./quiz.html">Quiz</a>
+          </div>
+          <div class="burger"><img src="img/main_burger.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!--fin de section principal-->
+    <!--inicio de section secundaria-->
+    <section class="second2" id="Features">
+      <div class="main">
+        <div class="specs-image">
+          <img src="img/exploded_burger.png" alt="" />
+        </div>
+        <div class="banners">
+          <div class="banner" id="banner1">
+            <span class="title"
+              ><i class="material-icons">public</i>
+              <h3>Variety</h3></span
+            >
+            <p>
+             A wide variety of styles, flavors, types of cooking,
+             breads and garnishes is considered in order to find the best
+             option for you.
+            </p>
+          </div>
+          <div class="banner" id="banner2">
+            <span class="title"
+              ><i class="material-icons">star</i>
+              <h3>Quality</h3></span
+            >
+            <p>
+              We show you a collection of top quality burgers produced
+              by our favourite shops and curated by a team of burger
+              lovers and afficionates.
+            </p>
+          </div>
+          <div class="banner" id="banner3">
+            <span class="title"
+              ><i class="material-icons">card_travel</i>
+              <h3>Visit  </h3></span
+            >
+            <p>
+             Ideal for tourists who want to try new stuff from
+             another part of the world.You don't know around?
+             Don't worry, well take care of it.
+            </p>
+          </div>
+          <div class="banner" id="banner4">
+            <span class="title"><i class="material-icons">thumbs_up_down</i>
+              <h3 id="feed">Feedback</h3></span>
+            <p>
+             We are always receiving feedback from our users
+             in order to continue to improve, so don't forget to
+             tell us what you think about Burgerquiz!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin de section secundaria-->
+
+    <!--catalogue-->
+    <section class="catalogue" id="catalogue">
+        <div class="max-width">
+            <div class="catalogue-content">
+                <div class="pres">
+                    <h2>The burger of your dreams is waiting for you.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, quam? Quia Quia Quia Quia veniam expl</p>
+                </div>
+                <div class="card ">
+                    <div class="img-burger">
+                        <img src="img/genesis_burger.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="texta">Génesis</h2><h2 class="numa">$365</h2>
+                        <h3>Estilo veggie</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, amet! Quia.</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="img-burger">
+                        <img src="img/salmon_burger.JPG" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="textb">Salmon</h2><h2 class="numb">$280</h2>
+                        <h3>Heisenburger</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, amet! Quia.</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="img-burger">
+                        <img src="img/american_burger.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="textc">American</h2><h2 class="numc">$325</h2>
+                        <h3>Voraz</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, amet! Quia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin--catalogue-->
+    <script src="./js/app.js"></script>
+   <script src="./js/materialize.min.js"></script>
+  </body>
+</html>
