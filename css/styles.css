@@ -106,68 +106,60 @@ body {
 
 /*Home*/
 
-.home {
+.home{
   display: flex;
+  /*background: url("../img/background.png");*/
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
-  color: #404040;
+  color:#404040;
   min-height: 500px;
   font-family: "Lato", sans-serif;
 }
-
-.home .max-width {
-  margin: auto;
-  padding-left: 100px;
+.home .max-width{
+  margin: auto ;
 }
-
-.home .home-content {
+.home .home-content{
   display: flex;
   /* flex-wrap: wrap; */
-   flex-wrap: nowrap;
-  margin-top: 60px;
   align-items: flex-end;
   justify-content: space-between;
 }
-
-.home .home-content .text-home {
+.home .home-content .text-home{
   width: 45%;
 }
-
-.home .home-content .burguer {
+.home .home-content .burger{
   width: 50%;
 }
-
-.home .home-content .text-1 {
+.home .home-content .text-1{
   font-size: 75px;
   font-weight: 800;
 }
-
-.home .home-content .text-2 {
+.home .home-content .text-2{
   font-size: 20px;
   margin: 20px 0;
 }
-
-.home .home-content a {
+.home .home-content a{
   display: inline-block;
-  background: #ff9f00;
+  background: #ff9f00   ;
   color: #fff;
   font-size: 25px;
   padding: 12px 100px;
   margin-top: 20px;
   margin-bottom: 62px;
   border-radius: 60px;
-  border: 3px solid #ff9f00;
+  border:3px solid #ff9f00 ;
   transition: all 0.3 ease;
 }
-
-.home .home-content a:hover {
-  color: #ff9f00;
-  border: 3px solid #ff9f00;
+.home .home-content a:hover{
+  color:#ff9f00 ;
+  border:3px solid #ff9f00 ;
   background: none;
 }
 
-.burger{
+/* .burger{
   margin-left: 100px;
-}
+} */
 
 /*section secondaria*/
 .second2{
@@ -374,7 +366,7 @@ body {
 
   .home .home-content{
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       justify-content: center;
       align-items: center;
   }
@@ -421,6 +413,9 @@ body {
         align-items:center;
 
     }
+    /* .banners{
+      margin-left: 10px;
+    } */
 }
 
 @media (max-width: 840px){
@@ -467,13 +462,11 @@ body {
   .home .home-content .burger {
       display: none;
   }
-  .home .max-width {
-    margin-left: -40px;
+}
   /* .max-width{
       max-width: 100px;
   } */
-}
-}
+
 
 /*responsive fin Home Theo*/
 
@@ -510,7 +503,7 @@ body {
 }
 .banners{
   display: flex;
-  /* margin-left: 20px; */
+  margin-left: 20px;
   flex-direction: column;
 }
 #banner3,#banner4{
