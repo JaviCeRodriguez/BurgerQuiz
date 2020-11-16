@@ -138,3 +138,8 @@
     }
 }
 
+@media(max-width:400){
+.catalogue-content{
+    margin-top: 50px;
+}
+}

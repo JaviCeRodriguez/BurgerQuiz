@@ -467,9 +467,12 @@ body {
   .home .home-content .burger {
       display: none;
   }
+  .home .max-width {
+    margin-left: -40px;
   /* .max-width{
       max-width: 100px;
   } */
+}
 }
 
 /*responsive fin Home Theo*/
