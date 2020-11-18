@@ -446,8 +446,8 @@ body {
 
 .About-us p {
     margin-top: 30px;
-    margin-bottom: 10px;
     color: #C4C4C4;
+    text-align: center;
 }
 
 .About-us h2 {
