@@ -442,13 +442,13 @@ body {
     width: 60%;
     margin-top:50px;
     padding: 3rem 0;
+    text-align: center;
 }
 
 .About-us p {
     margin-top: 30px;
     color: #C4C4C4;
-    text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 .About-us h2 {
