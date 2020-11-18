@@ -431,10 +431,13 @@ body {
     flex-direction: column;
     align-items: center;
     width: 90%;
+    margin-bottom:100px
 }
 
 .About-us {
     width: 65%;
+    margin-top:50px;
+    padding: 6rem 0;
 }
 
 .About-us p {
@@ -451,7 +454,7 @@ body {
 
 .foto-about img{
     border-radius: 50%;
-    width: 100px;
+    width: 130px;
 }
 
 .About-wrapper {
@@ -546,6 +549,7 @@ footer {
 }
 
 .Followus {
+    padding: 10px;
     font-weight: 900;
     font-size: 15px;
 }
