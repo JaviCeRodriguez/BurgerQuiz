@@ -474,7 +474,7 @@ body {
 .presentaciones {
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 60%;
     text-align: center;
     flex-wrap: wrap;
 }
