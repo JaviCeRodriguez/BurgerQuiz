@@ -244,38 +244,8 @@ body {
   text-align: left;
 }
 
-/*section secondaria*/
 /*catalogue*/
 /*cards*/
-/*.catalogue{
-  text-align: center;
-  margin-top: 140px;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-family: "Lato", sans-serif;
-}
-
-.cards {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-  align-items:center;
-  flex-wrap: wrap;
-}
-
-.cards .card {
-  width: 300px;
-  margin: 0 2rem;
-  position: relative;
-  padding: 10px;
-}
-
-.card i{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}*/
 .catalogue{
     display: flex;
     justify-content: center;
@@ -330,6 +300,8 @@ body {
 .catalogue .catalogue-content .card .content{
     position: absolute;
     padding: 0 20px 20px;
+    width: 320px;
+    height: 217px;
 
 }
 .catalogue .catalogue-content .card .content h2{
@@ -358,6 +330,93 @@ body {
 .catalogue .catalogue-content .card .content p{
     padding-bottom: 30px;
     color: #C4C4C4;
+}
+
+.catalogue .catalogue-content .card .car{
+    width:50px;
+    height:50px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.catalogue .catalogue-content .card .pes{
+    width:50px;
+    height:50px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.catalogue .catalogue-content .card .veg{
+    width:50px;
+    height:50px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.catalogue .catalogue-content .card .mas-c {
+    background-color: #ff9f00;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    margin-left: 80%;
+   border-radius: 20px;
+}
+
+.catalogue .catalogue-content .card .mas-c h2{
+    font-family: 'Comic Neue', cursive;
+    font-size: 125px;
+    color: white;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+.catalogue .catalogue-content .card .mas-v {
+    background-color: #ff9f00;
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+    margin-left: 80%;
+    border-radius: 20px;
+}
+.catalogue .catalogue-content .card .mas-v h2{
+    font-family: 'Comic Neue', cursive;
+    font-size: 125px;
+    color: white;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+.catalogue .catalogue-content .card .mas-p {
+    background-color: #ff9f00;
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+    margin-left: 80%;
+    border-radius: 20px;
+
+}
+.catalogue .catalogue-content .card .mas-p h2{
+    font-family: 'Comic Neue', cursive;
+    font-size: 125px;
+    color: white;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+.catalogue .catalogue-content a{
+    display: inline-block;
+    background: #ff9f00   ;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 100px;
+    margin-top: 20px;
+    margin-bottom: 62px;
+    border-radius: 60px;
+    border:3px solid #ff9f00 ;
+    transition: all 0.3 ease;
+    
+}
+.catalogue .catalogue-content a:hover{
+    color:#ff9f00 ;
+    border:3px solid #ff9f00 ;
+    background: none;
+    
 }
 /*catalogue*/
 
@@ -466,20 +525,7 @@ body {
   /* .max-width{
       max-width: 100px;
   } */
-
-
 /*responsive fin Home Theo*/
-
-/*section secondaria*/
-/* @media(max-width:1230px){
-  .main{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-  } 
-} */
 
 /*navbar*/
 @media(max-width:1230px){
