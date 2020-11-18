@@ -1,2 +1,2 @@
 # BurguerQuiz
-Repo de Proyecto Cyan by FEC 🥑
+Repo de Proyecto Cyan by FEC
