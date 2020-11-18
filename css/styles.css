@@ -422,7 +422,160 @@ body {
     background: none;
     
 }
-/*catalogue*/
+
+.big-container {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.About-us {
+    width: 65%;
+}
+
+.About-us p {
+    color: #797777; 
+    font-size: 13px;
+}
+
+.About-us h1 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.foto-about img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.About-wrapper {
+    width: 250px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.presentaciones {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.texto-about p {
+    color: #797777; 
+    font-size: 13px;
+}
+
+.texto-about h3 {
+    font-weight: 900;
+    
+}
+
+
+
+footer {
+    margin-top: 5px;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    width: 100%;
+    color: #404040;
+    background-color: orange;
+}
+
+.container-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px 0px 15px 0px;
+}
+
+.column1-footer {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column1-footer a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.column2-footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.column2-footer a {
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.column3-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Newsletter {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.instalarapp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.instalarapp img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.Followus {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.Followus img{
+    margin-left: 15px;
+    width: 20px;
+}
+
+#Newsletter-input {
+    border-radius: 10%;
+    height: 20px;
+    font-weight: 900;
+}
+
+#Suscribe {
+    border-radius: 35%;
+    background-color: #404040;
+    color: #FFFFFF;
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+#img-logo {
+    width: 75px;
+    margin-bottom: 15px;
+}
+
 
 /*responsive Home Theo*/
 @media (max-width: 1230px){
