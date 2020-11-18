@@ -481,11 +481,12 @@ body {
 
 .texto-about p {
     color: #797777; 
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .texto-about h3 {
     font-weight: 900;
+    font-size: 20px;
     
 }
 
