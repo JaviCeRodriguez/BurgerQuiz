@@ -680,6 +680,9 @@ footer {
       margin-left: auto;
       margin-right: 0;
   }
+  .imagen{
+    margin-left: -20px;
+  }
 }
 
 @media (max-width: 400px){
