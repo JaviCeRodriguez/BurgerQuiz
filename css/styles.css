@@ -251,6 +251,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-top: 200px;
+    padding: 6rem 0;
     font-family: "Lato", sans-serif;
 }
 .catalogue .catalogue-content{
@@ -274,6 +276,8 @@ body {
 
 }
 .catalogue .catalogue-content .pres p{
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding-left:30% ;
     padding-right:30% ;
     color: #C4C4C4;
