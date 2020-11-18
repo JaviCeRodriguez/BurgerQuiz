@@ -439,7 +439,7 @@ body {
 }
 
 .About-us {
-    width: 65%;
+    width: 80%;
     margin-top:50px;
     padding: 6rem 0;
 }
@@ -447,8 +447,6 @@ body {
 .About-us p {
     margin-top: 30px;
     margin-bottom: 10px;
-    padding-left: 30%;
-    padding-right: 30%;
     color: #C4C4C4;
 }
 
