@@ -445,16 +445,18 @@ body {
 }
 
 .About-us p {
-    color: #797777; 
-    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #C4C4C4;
 }
 
 .About-us h2 {
-    margin-bottom: 10px;
     margin-top: 10px;
     font-size: 35px;
     font-weight: 750;
-    color: #3E3D3D;
+    color: #C4C4C4;
     text-align: center;
 }
 
